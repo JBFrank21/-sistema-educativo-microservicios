@@ -1,12 +1,12 @@
 server:
   port: 8081
 spring:
-  cloud:
-    config:
+  cloud:     
+   config:
       server:
         git:
-          default-label: config-server
+          default-label: eureka
           uri: https://github.com/JBFrank21/-sistema-educativo-microservicios
           search-paths: config-data
   application:
-    name: config-service				
+    name: config-service			
