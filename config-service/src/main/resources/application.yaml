@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          default-label: multiples-instances
+          default-label: gateway
           uri: https://github.com/JBFrank21/-sistema-educativo-microservicios
           search-paths: config-data
   application:
